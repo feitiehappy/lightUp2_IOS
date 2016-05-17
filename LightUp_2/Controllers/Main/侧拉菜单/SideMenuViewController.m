@@ -190,7 +190,8 @@ CGFloat const kCellIconHeigh = 21;
     if ([Config getOwnID] == 0) {
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Login" bundle:nil];
         LoginViewController *loginVC = [storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
-        [self setContentViewController:loginVC];
+        //[self setContentViewController:loginVC];
+        [self presentViewController:loginVC animated:YES completion:nil];
     } else {
         return;
     }
