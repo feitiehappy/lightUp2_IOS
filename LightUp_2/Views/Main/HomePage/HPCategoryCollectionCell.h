@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HPCategoryCollectionCell : UICollectionView
+@interface HPCategoryCollectionCell : UICollectionViewCell
+
+@property (weak, nonatomic) IBOutlet UIButton *categoryIconButton;
 
 @end

@@ -10,4 +10,26 @@
 
 @implementation HPQuestionCell
 
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    return @{
+             @"bwztId": @"bwztid",
+             @"uId": @"uid",
+             @"userName": @"username",
+             @"title": @"subject",
+             @"contentText": @"message",
+             @"bwztClassId": @"bwztdivisionid",
+             @"bwztDivisionId": @"bwztdivisionid",
+             @"sex": @"sex",
+             @"age": @"age",
+             @"viewNum": @"viewnum",
+             @"replyNum": @"replynum",
+             @"hot": @"hot",
+             @"dateline": @"dateline",
+             @"questionStatus": @"status",
+             @"name": @"name",
+             @"pics": @"pics",
+             @"avatarUrl": @"avatar_url"
+             };
+}
+
 @end
