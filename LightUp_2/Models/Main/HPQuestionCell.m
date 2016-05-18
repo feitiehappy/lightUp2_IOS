@@ -32,4 +32,13 @@
              };
 }
 
++ (NSValueTransformer *)picsJSONTransformer {
+    return [MTLValueTransformer transformerUsingForwardBlock:^(NSString *str, BOOL *success, NSError **error){
+        NSArray *array = [NSJSONSerialization JSONObjectWithData:[str dataUsingEncoding:NSASCIIStringEncoding] options:NSJSONReadingAllowFragments error:nil];
+        return array;
+    } reverseBlock:^(NSArray *array, BOOL *success, NSError **error) {
+        return array;
+    }];
+}
+
 @end

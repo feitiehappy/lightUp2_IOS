@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21195B5B1CEC670D00D39940 /* LUNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 21195B5A1CEC670D00D39940 /* LUNetWork.m */; };
 		211B03E61CE4814800731006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B03E51CE4814800731006 /* main.m */; };
 		211B03E91CE4814800731006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B03E81CE4814800731006 /* AppDelegate.m */; };
 		211B03EF1CE4814800731006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211B03ED1CE4814800731006 /* Main.storyboard */; };
@@ -23,7 +24,6 @@
 		2199AFDD1CE9DC2000A09194 /* HomePageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2199AFDC1CE9DC2000A09194 /* HomePageTableViewController.m */; };
 		21B28CCA1CE9FD1E004B41D6 /* HPCategoryCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21B28CC91CE9FD1E004B41D6 /* HPCategoryCollectionCell.xib */; };
 		21B28CCD1CE9FD93004B41D6 /* HPCategoryCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B28CCC1CE9FD93004B41D6 /* HPCategoryCollectionCell.m */; };
-		21B28CD01CEA2C09004B41D6 /* LUHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B28CCF1CEA2C09004B41D6 /* LUHttpTool.m */; };
 		21B28CD41CEAD900004B41D6 /* HPQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B28CD31CEAD900004B41D6 /* HPQuestionCell.m */; };
 		21CE9E9E1CE4CF42000CFBE1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CE9E9D1CE4CF42000CFBE1 /* RootViewController.m */; };
 		21CE9EB91CE4DF3F000CFBE1 /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CE9EB81CE4DF3F000CFBE1 /* UIView+frameAdjust.m */; };
@@ -54,6 +54,8 @@
 /* Begin PBXFileReference section */
 		16E2E0E9E6A6A9429744DA71 /* Pods-LightUp_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightUp_2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightUp_2/Pods-LightUp_2.debug.xcconfig"; sourceTree = "<group>"; };
 		1A4968E1BECF987AAC108497 /* Pods-LightUp_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightUp_2.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightUp_2/Pods-LightUp_2.release.xcconfig"; sourceTree = "<group>"; };
+		21195B591CEC670D00D39940 /* LUNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LUNetWork.h; path = Utils/LUNetWork.h; sourceTree = "<group>"; };
+		21195B5A1CEC670D00D39940 /* LUNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LUNetWork.m; path = Utils/LUNetWork.m; sourceTree = "<group>"; };
 		211B03E11CE4814800731006 /* LightUp_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightUp_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		211B03E51CE4814800731006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		211B03E71CE4814800731006 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,8 +85,6 @@
 		21B28CC91CE9FD1E004B41D6 /* HPCategoryCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HPCategoryCollectionCell.xib; path = Views/Main/HomePage/HPCategoryCollectionCell.xib; sourceTree = "<group>"; };
 		21B28CCB1CE9FD93004B41D6 /* HPCategoryCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPCategoryCollectionCell.h; path = Views/Main/HomePage/HPCategoryCollectionCell.h; sourceTree = "<group>"; };
 		21B28CCC1CE9FD93004B41D6 /* HPCategoryCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPCategoryCollectionCell.m; path = Views/Main/HomePage/HPCategoryCollectionCell.m; sourceTree = "<group>"; };
-		21B28CCE1CEA2C09004B41D6 /* LUHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LUHttpTool.h; path = Utils/LUHttpTool.h; sourceTree = "<group>"; };
-		21B28CCF1CEA2C09004B41D6 /* LUHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LUHttpTool.m; path = Utils/LUHttpTool.m; sourceTree = "<group>"; };
 		21B28CD21CEAD900004B41D6 /* HPQuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPQuestionCell.h; path = Models/Main/HPQuestionCell.h; sourceTree = "<group>"; };
 		21B28CD31CEAD900004B41D6 /* HPQuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPQuestionCell.m; path = Models/Main/HPQuestionCell.m; sourceTree = "<group>"; };
 		21CE9E9C1CE4CF42000CFBE1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Controllers/RootViewController.h; sourceTree = "<group>"; };
@@ -306,8 +306,8 @@
 				21CE9EBA1CE4E281000CFBE1 /* Utils.h */,
 				21CE9F0E1CE5EC00000CFBE1 /* Config.h */,
 				21CE9F0F1CE5EC00000CFBE1 /* Config.m */,
-				21B28CCE1CEA2C09004B41D6 /* LUHttpTool.h */,
-				21B28CCF1CEA2C09004B41D6 /* LUHttpTool.m */,
+				21195B591CEC670D00D39940 /* LUNetWork.h */,
+				21195B5A1CEC670D00D39940 /* LUNetWork.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -538,6 +538,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				215683351CE6C20F00C14D07 /* UIView+Util.m in Sources */,
+				21195B5B1CEC670D00D39940 /* LUNetWork.m in Sources */,
 				21B28CD41CEAD900004B41D6 /* HPQuestionCell.m in Sources */,
 				21CE9EBE1CE4E697000CFBE1 /* SideMenuViewController.m in Sources */,
 				21CE9F101CE5EC00000CFBE1 /* Config.m in Sources */,
@@ -549,7 +550,6 @@
 				21CE9F0D1CE5C448000CFBE1 /* LUUser.m in Sources */,
 				215683381CE6C4F600C14D07 /* UIImageView+Util.m in Sources */,
 				21B28CCD1CE9FD93004B41D6 /* HPCategoryCollectionCell.m in Sources */,
-				21B28CD01CEA2C09004B41D6 /* LUHttpTool.m in Sources */,
 				2199AFDD1CE9DC2000A09194 /* HomePageTableViewController.m in Sources */,
 				2171F35A1CE837C000B46143 /* LoginViewController.m in Sources */,
 				21CE9E9E1CE4CF42000CFBE1 /* RootViewController.m in Sources */,

@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class HPQuestionCell;
+
 @interface HPTableViewCell : UITableViewCell
+
+@property (nonatomic, strong) HPQuestionCell *cellData;
+
+/**
+ *  图片的collectionView。需要在viewcontroller设置datasource和delegate
+ */
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
